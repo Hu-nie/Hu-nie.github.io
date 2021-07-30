@@ -2,7 +2,7 @@
 markdown: kramdown
 
 # URL of the Site
-url: 'https://hu-nie.github.io/'
+url: ''
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
 baseurl: 
 
@@ -13,7 +13,7 @@ description: The Tech Blog
 # URL of Image of the Site
 site-image: /assets/images/meta.jpg
 # Keywords of the Site
-site-keywords: Site, Template, Theme
+site-keywords: Tech, ML/DL 
 # URL for the Image of custom Favicon
 favicon-url: /assets/images/favicon.jpg
 
@@ -35,7 +35,7 @@ github_username:  Hu-nie
 #spotify_username: /
 
 # Google Analytics
-google-analytics: UA-163806439-1
+google-analytics: G-V8QFTV8LBD
 
 # Disqus
 disqus-shortname: thedevslot
@@ -145,3 +145,11 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+# Analytics
+analytics:
+  provider               : "google-gtag" 
+                          # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          : "G-V8QFTV8LBD"
+    anonymize_ip         : # true, false (default)
